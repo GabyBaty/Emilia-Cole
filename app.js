@@ -1,0 +1,11 @@
+const express = require('express');
+const app = express();
+const port = 3030;
+const path= require('path');
+const views= path.join(__dirname,'views');
+app.get('/',(req,res)=> res.sendFile(path.join(__dirname,'views','home.html')));
+app.get('/music',(req,res)=> res.sendFile(path.join(__dirname,'views','music.html')));
+app.get('/about',(req,res)=> res.sendFile(path.join(__dirname,'views','about.html')));
+app.get('/contact',(req,res)=> res.sendFile(path.join(__dirname,'views','contact.html')));
+app.listen(port, ()=> console.log ('Servidor corriendo en el puerto ' + port));
+app.use(express.static('public'));

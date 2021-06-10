@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap');
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+li{
+    list-style: none;
+}
+
+
+.fa-twitter-square:hover{
+    color: lightskyblue;
+}
+
+.fa-instagram-square:hover{
+    color:red;
+
+}
+
+.fa-facebook-square:hover{
+    color: blue;
+}
+
+.fa-apple:hover{
+    color: grey;
+}
+
+.fa-amazon:hover{
+    color: yellow;
+}
+.fa-spotify:hover{
+    color: green;
+}

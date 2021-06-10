@@ -1,0 +1,63 @@
+/*Header*/
+
+.contact .menu{
+    text-align: right;
+    padding: 20px 10px;  
+}
+ .contact a{
+     color:black;
+     text-transform: uppercase;
+     margin: 60px 0 ;
+ } 
+ 
+
+.contact .menu li{
+    display: inline-block;
+    border-left: 1px solid black;
+    width: 85px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.contact .menu li:last-child{
+    border-right: 1px solid black;
+}
+
+.contact .redes a{
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.contact .redes{
+    text-align: right;
+    margin: 10px 10px 0 0;
+} 
+
+/*main*/
+
+.email:hover{
+    color:blue
+}
+
+.phone:hover{
+    color: blue;
+}
+
+h3{
+    color: #40a08f;
+    margin: 20px 0 20px 0;
+}
+
+h4 .email{
+    color: grey;
+}
+
+h4 .phone{
+    color: grey;
+}
+section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
